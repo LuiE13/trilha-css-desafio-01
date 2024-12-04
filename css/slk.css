@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'Relaway';
+    src: url('/assets/font/Raleway-VariableFont_wght.ttf') format('woff2'),
+    url('/assets/font/Raleway-Italic-VariableFont_wght.ttf') format('woff'); /* Path to font files */
+}
+
+body{
+    background-color: #000;
+    font-family: 'Relaway';
+    color: #fff;
+    margin: 0;
+}
+.banner{
+    max-width: 1440px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    height: 605px;
+    border-bottom: 1px #33A8DB solid;
+    background-image: url(/assets/images/banner.png);
+
+}
+
+.banner-content{
+    font-family: 'Relaway';
+    max-width: 510px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-content h1{
+    font-weight: 900;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.banner-content p{
+    
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.5px;
+    text-align: center;
+}
+
+.banner-content button{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 18.5px;
+    background: none;
+    border: 2px #33A8DB  solid;
+    margin-top: 20px;
+    padding: 19px 91px ;
+    color: #31A8DD;
+    text-align: center;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#course-content{
+    max-width: 792px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#course-content h2{
+    font-weight: 700;
+    color: #33A8DB;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 37.5px;
+    letter-spacing: 0.19em;
+    
+}   
+
+#course-content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.5px;
+    text-align: center;
+}
+
+.modules-list{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.module{
+    background-color: #252525;
+    margin: 10px;
+    border-radius: 30px;
+    text-align: center;
+    border: 1px solid #33A8DB;
+    padding: 16px 127px;
+    box-shadow: -2px 6px 4px 0px #00000066 inset;
+
+}
+
+.module span{
+    color: #31A8DD;
+}
+
+#transform-world{
+    max-width: 1440px;
+    Height: 363px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(/assets/images/woman-code.png);
+    display: flex;
+    align-items: center;
+    padding:  0 1000px 0 150px;
+    text-transform: lowercase;
+    box-sizing: border-box;
+}
+
+#transform-world p{
+    text-shadow: 3px 2px  #33A8DB;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#professional-challenges{
+    padding: 70px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#professional-challenges h2{
+    color: #33A8DB;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 37.57px;
+    letter-spacing: 0.19em;
+    max-width: 746px;
+}
+
+#professional-challenges p{
+    font-size: 16px;
+    max-width: 792px;
+    font-weight: 400;
+}
+
+footer{
+    height: 170px;
+    padding: 44px 0 0 0 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    border-top: #33A8DB solid 1px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    text-align: center;
+}
+
+footer a{
+    font-weight: 400;
+    text-decoration: none;
+    color: #1472B7;
+}
