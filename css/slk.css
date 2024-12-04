@@ -175,6 +175,7 @@ footer{
     font-weight: 400;
     line-height: 18.78px;
     text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
 }
 
 footer a{
